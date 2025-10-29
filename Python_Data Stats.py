@@ -23,3 +23,4 @@ def group_stats(x):
 result = df.groupby(["A", "B"]).apply(group_stats).reset_index()
 result.to_csv("CVR_A_group_stats.csv", index=False)
 print(result.head())
+#Add Testing Events
